@@ -1,0 +1,390 @@
+1682009164670	geckodriver	INFO	Listening on 127.0.0.1:58476
+1682009164759	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/s2/3rhnrhrn3dd54h66h8z774040000gn/T/rust_mozprofilepcwjee"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682009165460	Marionette	INFO	Marionette enabled
+1682009165733	Marionette	INFO	Listening on port 58498
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 58498
+WebDriver BiDi listening on ws://127.0.0.1:58477
+1682009165849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s2/3rhnrhrn3dd54h66h8z774040000gn/T/rust_mozprofilepcwjee/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:58477/devtools/browser/901bc0a1-5d3c-478d-b966-4d20ea3bbc7c
+JavaScript error: https://www.21vek.by/js/main/experiment_global.js, line 2: ReferenceError: cxApi is not defined
+1   HIToolbox                           0x00000001b03645c8 _ZN15MenuBarInstance22EnsureAutoShowObserverEv + 120
+2   HIToolbox                           0x00000001b0364188 _ZN15MenuBarInstance14EnableAutoShowEv + 60
+3   HIToolbox                           0x00000001b02d18bc _ZN15MenuBarInstance21UpdateAggregateUIModeE21MenuBarAnimationStylehhh + 1184
+4   HIToolbox                           0x00000001b0364004 _ZN15MenuBarInstance19SetFullScreenUIModeEjj + 180
+5   AppKit                              0x00000001aa153d30 -[NSApplication _setPresentationOptions:instance:flags:] + 956
+6   AppKit                              0x00000001a9fe993c -[NSApplication _updateFullScreenPresentationOptionsForInstance:] + 404
+7   CoreFoundation                      0x00000001a6c06560 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__ + 148
+8   CoreFoundation                      0x00000001a6ca4044 ___CFXRegistrationPost_block_invoke + 88
+9   CoreFoundation                      0x00000001a6ca3f8c _CFXRegistrationPost + 440
+10  CoreFoundation                      0x00000001a6bd7b64 _CFXNotificationPost + 708
+11  Foundation                          0x00000001a7ac738c -[NSNotificationCenter postNotificationName:object:userInfo:] + 88
+12  AppKit                              0x00000001aa1542b4 spacesNotificationHandler + 96
+13  SkyLight                            0x00000001ab841214 _ZN12_GLOBAL__N_123notify_datagram_handlerEj15CGSDatagramTypePvmS1_ + 896
+14  SkyLight                            0x00000001abb6d4d4 _ZN21CGSDatagramReadStream26dispatchMainQueueDatagramsEv + 228
+15  SkyLight                            0x00000001abb6d3d0 ___ZN21CGSDatagramReadStream15mainQueueWakeupEv_block_invoke + 28
+16  libdispatch.dylib                   0x00000001a69a89dc _dispatch_call_block_and_release + 32
+17  libdispatch.dylib                   0x00000001a69aa504 _dispatch_client_callout + 20
+18  libdispatch.dylib                   0x00000001a69b8d1c _dispatch_main_queue_drain + 928
+19  libdispatch.dylib                   0x00000001a69b896c _dispatch_main_queue_callback_4CF + 44
+20  CoreFoundation                      0x00000001a6c52d40 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 16
+21  CoreFoundation                      0x00000001a6c107c0 __CFRunLoopRun + 2036
+22  CoreFoundation                      0x00000001a6c0f878 CFRunLoopRunSpecific + 612
+23  HIToolbox                           0x00000001b02effa0 RunCurrentEventLoopInMode + 292
+24  HIToolbox                           0x00000001b02efde4 ReceiveNextEventCommon + 672
+25  HIToolbox                           0x00000001b02efb2c _BlockUntilNextEventMatchingListInModeWithFilter + 72
+26  AppKit                              0x00000001a9e9584c _DPSNextEvent + 632
+27  AppKit                              0x00000001a9e949dc -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 728
+28  XUL                                 0x00000001169409c8 _ZN14nsXPTCStubBase7Stub249Ev + 14661100
+29  AppKit                              0x00000001a9e88e0c -[NSApplication run] + 464
+30  XUL                                 0x00000001169417a0 _ZN14nsXPTCStubBase7Stub249Ev + 14664644
+31  XUL                                 0x000000011ad023d4 workerlz4_maxCompressedSize + 398016
+32  XUL                                 0x0000000116f7f5e0 GIFFT_TimingDistributionCancel + 516556
+33  XUL                                 0x000000011ad7ab5c workerlz4_maxCompressedSize + 891464
+34  XUL                                 0x000000011ad7af44 workerlz4_maxCompressedSize + 892464
+35  firefox-bin                         0x0000000104813008 firefox-bin + 28680
+36  dyld                                0x00000001a6807e50 start + 2544
+1   HIToolbox                           0x00000001b02ef90c _ZN15MenuBarInstance22RemoveAutoShowObserverEv + 44
+2   HIToolbox                           0x00000001b0364fbc _ZN15MenuBarInstance15DisableAutoShowEv + 36
+3   HIToolbox                           0x00000001b03650b0 _ZN15MenuBarInstanceD2Ev + 128
+4   HIToolbox                           0x00000001b0364ee0 _ZN15MenuBarInstance7ReleaseEv + 56
+5   AppKit                              0x00000001aa4f14dc -[NSHIPresentationInstance discard] + 228
+6   AppKit                              0x00000001aa8b08b4 -[_NSFullScreenSpace(PresentationInstance) discardPresentationInstance] + 32
+7   AppKit                              0x00000001aa8b090c -[_NSFullScreenSpace(PresentationInstance) activateFullScreenPresentationOptions] + 64
+8   AppKit                              0x00000001aa70a968 -[_NSExitFullScreenTransitionController _doSucceededToExitFullScreen] + 40
+9   AppKit                              0x00000001aa70b440 __63-[_NSExitFullScreenTransitionController _performExitFullScreen]_block_invoke + 236
+10  libxpc.dylib                        0x00000001a68a242c _xpc_connection_reply_callout + 124
+11  libxpc.dylib                        0x00000001a68a231c _xpc_connection_call_reply_async + 88
+12  libdispatch.dylib                   0x00000001a69aa584 _dispatch_client_callout3 + 20
+13  libdispatch.dylib                   0x00000001a69c8710 _dispatch_mach_msg_async_reply_invoke + 344
+14  libdispatch.dylib                   0x00000001a69b8c70 _dispatch_main_queue_drain + 756
+15  libdispatch.dylib                   0x00000001a69b896c _dispatch_main_queue_callback_4CF + 44
+16  CoreFoundation                      0x00000001a6c52d40 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 16
+17  CoreFoundation                      0x00000001a6c107c0 __CFRunLoopRun + 2036
+18  CoreFoundation                      0x00000001a6c0f878 CFRunLoopRunSpecific + 612
+19  HIToolbox                           0x00000001b02effa0 RunCurrentEventLoopInMode + 292
+20  HIToolbox                           0x00000001b02efc30 ReceiveNextEventCommon + 236
+21  HIToolbox                           0x00000001b02efb2c _BlockUntilNextEventMatchingListInModeWithFilter + 72
+22  AppKit                              0x00000001a9e9584c _DPSNextEvent + 632
+23  AppKit                              0x00000001a9e949dc -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 728
+24  XUL                                 0x00000001169409c8 _ZN14nsXPTCStubBase7Stub249Ev + 14661100
+25  AppKit                              0x00000001a9e88e0c -[NSApplication run] + 464
+26  XUL                                 0x00000001169417a0 _ZN14nsXPTCStubBase7Stub249Ev + 14664644
+27  XUL                                 0x000000011ad023d4 workerlz4_maxCompressedSize + 398016
+28  XUL                                 0x0000000116f7f5e0 GIFFT_TimingDistributionCancel + 516556
+29  XUL                                 0x000000011ad7ab5c workerlz4_maxCompressedSize + 891464
+30  XUL                                 0x000000011ad7af44 workerlz4_maxCompressedSize + 892464
+31  firefox-bin                         0x0000000104813008 firefox-bin + 28680
+32  dyld                                0x00000001a6807e50 start + 2544
+JavaScript warning: https://statad.ru/tracker.js?d=21vek.by, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://api.mindbox.ru/scripts/v1/tracker.js, line 18: Error: Multiple attepmts to initialize tracker. Look for duplicate mindbox script-blocks.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1682009412134	geckodriver	INFO	Listening on 127.0.0.1:60035
+1682009412535	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/s2/3rhnrhrn3dd54h66h8z774040000gn/T/rust_mozprofilehPXy3A"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682009412880	Marionette	INFO	Marionette enabled
+1682009412938	Marionette	INFO	Listening on port 60049
+Read port: 60049
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:60036
+1682009413044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s2/3rhnrhrn3dd54h66h8z774040000gn/T/rust_mozprofilehPXy3A/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:60036/devtools/browser/c3aa6fe4-6cef-4994-86ad-61a53eab3e7c
+JavaScript error: https://www.21vek.by/js/main/experiment_global.js, line 2: ReferenceError: cxApi is not defined
+1   HIToolbox                           0x00000001b03645c8 _ZN15MenuBarInstance22EnsureAutoShowObserverEv + 120
+2   HIToolbox                           0x00000001b0364188 _ZN15MenuBarInstance14EnableAutoShowEv + 60
+3   HIToolbox                           0x00000001b02d18bc _ZN15MenuBarInstance21UpdateAggregateUIModeE21MenuBarAnimationStylehhh + 1184
+4   HIToolbox                           0x00000001b0364004 _ZN15MenuBarInstance19SetFullScreenUIModeEjj + 180
+5   AppKit                              0x00000001aa153d30 -[NSApplication _setPresentationOptions:instance:flags:] + 956
+6   AppKit                              0x00000001a9fe993c -[NSApplication _updateFullScreenPresentationOptionsForInstance:] + 404
+7   CoreFoundation                      0x00000001a6c06560 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__ + 148
+8   CoreFoundation                      0x00000001a6ca4044 ___CFXRegistrationPost_block_invoke + 88
+9   CoreFoundation                      0x00000001a6ca3f8c _CFXRegistrationPost + 440
+10  CoreFoundation                      0x00000001a6bd7b64 _CFXNotificationPost + 708
+11  Foundation                          0x00000001a7ac738c -[NSNotificationCenter postNotificationName:object:userInfo:] + 88
+12  AppKit                              0x00000001aa1542b4 spacesNotificationHandler + 96
+13  SkyLight                            0x00000001ab841214 _ZN12_GLOBAL__N_123notify_datagram_handlerEj15CGSDatagramTypePvmS1_ + 896
+14  SkyLight                            0x00000001abb6d4d4 _ZN21CGSDatagramReadStream26dispatchMainQueueDatagramsEv + 228
+15  SkyLight                            0x00000001abb6d3d0 ___ZN21CGSDatagramReadStream15mainQueueWakeupEv_block_invoke + 28
+16  libdispatch.dylib                   0x00000001a69a89dc _dispatch_call_block_and_release + 32
+17  libdispatch.dylib                   0x00000001a69aa504 _dispatch_client_callout + 20
+18  libdispatch.dylib                   0x00000001a69b8d1c _dispatch_main_queue_drain + 928
+19  libdispatch.dylib                   0x00000001a69b896c _dispatch_main_queue_callback_4CF + 44
+20  CoreFoundation                      0x00000001a6c52d40 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 16
+21  CoreFoundation                      0x00000001a6c107c0 __CFRunLoopRun + 2036
+22  CoreFoundation                      0x00000001a6c0f878 CFRunLoopRunSpecific + 612
+23  HIToolbox                           0x00000001b02effa0 RunCurrentEventLoopInMode + 292
+24  HIToolbox                           0x00000001b02efde4 ReceiveNextEventCommon + 672
+25  HIToolbox                           0x00000001b02efb2c _BlockUntilNextEventMatchingListInModeWithFilter + 72
+26  AppKit                              0x00000001a9e9584c _DPSNextEvent + 632
+27  AppKit                              0x00000001a9e949dc -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 728
+28  XUL                                 0x00000001129409c8 _ZN14nsXPTCStubBase7Stub249Ev + 14661100
+29  AppKit                              0x00000001a9e88e0c -[NSApplication run] + 464
+30  XUL                                 0x00000001129417a0 _ZN14nsXPTCStubBase7Stub249Ev + 14664644
+31  XUL                                 0x0000000116d023d4 workerlz4_maxCompressedSize + 398016
+32  XUL                                 0x0000000112f7f5e0 GIFFT_TimingDistributionCancel + 516556
+33  XUL                                 0x0000000116d7ab5c workerlz4_maxCompressedSize + 891464
+34  XUL                                 0x0000000116d7af44 workerlz4_maxCompressedSize + 892464
+35  firefox-bin                         0x00000001007eb008 firefox-bin + 28680
+36  dyld                                0x00000001a6807e50 start + 2544
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://statad.ru/tracker.js?d=21vek.by, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://api.mindbox.ru/scripts/v1/tracker.js, line 18: Error: Multiple attepmts to initialize tracker. Look for duplicate mindbox script-blocks.
+1   HIToolbox                           0x00000001b02ef90c _ZN15MenuBarInstance22RemoveAutoShowObserverEv + 44
+2   HIToolbox                           0x00000001b0364fbc _ZN15MenuBarInstance15DisableAutoShowEv + 36
+3   HIToolbox                           0x00000001b03650b0 _ZN15MenuBarInstanceD2Ev + 128
+4   HIToolbox                           0x00000001b0364ee0 _ZN15MenuBarInstance7ReleaseEv + 56
+5   AppKit                              0x00000001aa4f14dc -[NSHIPresentationInstance discard] + 228
+6   AppKit                              0x00000001aa8b08b4 -[_NSFullScreenSpace(PresentationInstance) discardPresentationInstance] + 32
+7   AppKit                              0x00000001aa8b090c -[_NSFullScreenSpace(PresentationInstance) activateFullScreenPresentationOptions] + 64
+8   AppKit                              0x00000001aa70a968 -[_NSExitFullScreenTransitionController _doSucceededToExitFullScreen] + 40
+9   AppKit                              0x00000001aa70b440 __63-[_NSExitFullScreenTransitionController _performExitFullScreen]_block_invoke + 236
+10  libxpc.dylib                        0x00000001a68a242c _xpc_connection_reply_callout + 124
+11  libxpc.dylib                        0x00000001a68a231c _xpc_connection_call_reply_async + 88
+12  libdispatch.dylib                   0x00000001a69aa584 _dispatch_client_callout3 + 20
+13  libdispatch.dylib                   0x00000001a69c8710 _dispatch_mach_msg_async_reply_invoke + 344
+14  libdispatch.dylib                   0x00000001a69b8c70 _dispatch_main_queue_drain + 756
+15  libdispatch.dylib                   0x00000001a69b896c _dispatch_main_queue_callback_4CF + 44
+16  CoreFoundation                      0x00000001a6c52d40 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 16
+17  CoreFoundation                      0x00000001a6c107c0 __CFRunLoopRun + 2036
+18  CoreFoundation                      0x00000001a6c0f878 CFRunLoopRunSpecific + 612
+19  HIToolbox                           0x00000001b02effa0 RunCurrentEventLoopInMode + 292
+20  HIToolbox                           0x00000001b02efde4 ReceiveNextEventCommon + 672
+21  HIToolbox                           0x00000001b02efb2c _BlockUntilNextEventMatchingListInModeWithFilter + 72
+22  AppKit                              0x00000001a9e9584c _DPSNextEvent + 632
+23  AppKit                              0x00000001a9e949dc -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 728
+24  XUL                                 0x00000001129409c8 _ZN14nsXPTCStubBase7Stub249Ev + 14661100
+25  AppKit                              0x00000001a9e88e0c -[NSApplication run] + 464
+26  XUL                                 0x00000001129417a0 _ZN14nsXPTCStubBase7Stub249Ev + 14664644
+27  XUL                                 0x0000000116d023d4 workerlz4_maxCompressedSize + 398016
+28  XUL                                 0x0000000112f7f5e0 GIFFT_TimingDistributionCancel + 516556
+29  XUL                                 0x0000000116d7ab5c workerlz4_maxCompressedSize + 891464
+30  XUL                                 0x0000000116d7af44 workerlz4_maxCompressedSize + 892464
+31  firefox-bin                         0x00000001007eb008 firefox-bin + 28680
+32  dyld                                0x00000001a6807e50 start + 2544
+1682011476548	Marionette	INFO	Stopped listening on port 58498
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1682011478124	Marionette	INFO	Stopped listening on port 60049
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1682017065151	geckodriver	INFO	Listening on 127.0.0.1:60346
+1682017065579	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/s2/3rhnrhrn3dd54h66h8z774040000gn/T/rust_mozprofile3p4uT8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682017065988	Marionette	INFO	Marionette enabled
+1682017066061	Marionette	INFO	Listening on port 60363
+Read port: 60363
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:60347
+1682017066199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s2/3rhnrhrn3dd54h66h8z774040000gn/T/rust_mozprofile3p4uT8/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:60347/devtools/browser/c1c5f565-c54b-49b7-8339-709a532b7ddf
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1682017076078	Marionette	INFO	Stopped listening on port 60363
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682017092317	geckodriver	INFO	Listening on 127.0.0.1:60690
+1682017092759	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/s2/3rhnrhrn3dd54h66h8z774040000gn/T/rust_mozprofileHvEHaX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682017093112	Marionette	INFO	Marionette enabled
+1682017093188	Marionette	INFO	Listening on port 60703
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 60703
+WebDriver BiDi listening on ws://127.0.0.1:60691
+1682017093375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s2/3rhnrhrn3dd54h66h8z774040000gn/T/rust_mozprofileHvEHaX/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:60691/devtools/browser/89bfd754-91b3-48c2-90a8-a0e486a3dad0
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1682017104573	Marionette	INFO	Stopped listening on port 60703
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
